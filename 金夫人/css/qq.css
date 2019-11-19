@@ -1,0 +1,147 @@
+body,html{
+	height: 100%;
+}
+
+
+.img{
+	height: 100%;
+	position: relative;
+	
+}
+
+/*img{
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all 1s;
+}*/
+.img2{
+	opacity: 1;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all 1s;
+}
+.logo{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	cursor: pointer;
+}
+.logo img{
+	position: static;
+	height: 100%;
+}
+
+
+.logo h1{
+	display: inline-block;
+}
+.img img{
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all 1s;
+	opacity: 0;
+	vertical-align: top;
+}
+.img .img1{
+	opacity: 1;
+	
+}
+.box{
+	height: 100%;
+	display: inline-block;
+}
+.opp{
+	float: right;
+	margin-top: 30px;
+	width: 55%;
+}
+
+.box1one{
+	cursor: pointer;
+}
+.box1one span{
+	display: inline-block;
+	width: 100px;
+	line-height: 30px;
+	background:#fe724d;
+	border-radius:40px;
+	text-align: center;
+}
+.box1one img{
+	position: relative;
+	right: -20px;
+	top: -5px;
+}
+.box1{
+	text-align: right;
+}
+.box1 div{
+	width: 160px;
+	text-align: center;
+	display: inline-block;
+}
+.p{
+	position: relative;
+}
+.p p{
+	margin-bottom: 30px;
+	cursor: pointer;
+	color: #d1d1d1;
+}
+
+
+.p p:hover{
+	color: black;
+}
+.pp{
+	position: absolute;
+	left: 0;
+	top: 40px;
+	opacity: 0;
+}
+.p1 p:hover{
+	color: black;
+}
+.p1{
+	color: #d1d1d1;
+	cursor: pointer;
+}
+.p p:first-child:hover~.pp{
+	opacity: 1;
+}
+
+
+.h h1{
+	font-size: 40px;
+	
+}
+.h{
+	width: 60%;
+}
+.ppd{
+	width: 100%;
+    display: flex;
+    justify-content: space-between;
+	
+}
+.ppd p{
+	margin-top: 30px;
+}
+.ppd p:first-child{
+	font-size: 26px;
+}
+.ppd p:last-child{
+	font-size: 24px;
+	color:#359eff;
+	cursor: pointer;
+}
+form input{
+	width: 100%;
+	height: 36px;
+}

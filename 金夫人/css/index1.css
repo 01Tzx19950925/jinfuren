@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.center{
+	width: 1100px;
+	margin: auto;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+img{
+	vertical-align: top;
+}

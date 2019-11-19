@@ -1,0 +1,228 @@
+header{
+	width:480px;
+	height:100%;
+	position: fixed;
+	float: left;
+}
+header img{
+	width:100%;
+	height:100%;
+}
+.head_left{
+	width:100%;
+	
+}
+.head_left img{
+	width:100%;
+	height:100%;
+	opacity: 0;
+	position: absolute;
+	left:0;
+	right:0;
+	transition: all 1s;
+}
+.active{
+	opacity: 1!important;
+}
+.logo{
+	width:102px;
+	height:42px;
+	position: absolute;
+	top:20px;
+	left:32px;
+	
+}
+.logo img{
+	width:36px;
+	height:42px;
+}
+.logo span{
+	color:#000;
+	font-size: 26px;
+}
+
+/* section{ */
+/*	overflow-y: scroll;*/
+/* } */
+.seches_left{
+	width:320px;
+	height:34px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color:rgb(101, 101, 101);
+	margin-right: 64px;
+	margin-top: 18px;
+	position: relative;
+	cursor: pointer;
+}
+.surfing{
+		position: relative;
+}
+.surfing img{
+	width:20px;
+	height:34px;
+	float: left;
+	position: absolute;
+	bottom:0;
+	left:-14px;
+}
+.surfing div{
+	width:78px;
+	line-height:24px;
+	background:rgb(232, 74, 72);
+	border-radius: 5px;
+	color: #FFF;
+	text-align: center;
+}
+.away{
+	width:78px;
+	height:87px;
+	position: relative;
+	margin-top: 70px;
+}
+.Chinese img,.Chinesex img{
+	width:8px;
+	height:10px;
+	margin-top: 6px;
+}
+.vanish{
+	color:black;
+	opacity: 0;
+	position: absolute;
+	left:0px;
+	top:0px;
+}
+.vanish img{
+	margin-left:5px ;
+}
+.away:hover .vanish{
+	opacity: 1;
+}
+.away:hover .Chinesex{
+	opacity: 0;
+}
+.Chinese div{
+	margin-bottom:8px;
+}
+.main{
+	width:480px;
+	margin:110px -234px 0px 152px;
+	
+}
+.greet{
+	font-size: 44px;
+	color:#000;
+} 
+.day{
+	width:480px;
+	height:33px;
+	margin: 32px 0 64px 0;
+}
+.day_lef{
+	width:236px;
+	line-height:33px;
+	font-size: 28px;
+	color:#333;
+	text-align: center;
+
+}
+.day_rig{
+	width:96px;
+	line-height: 33px;
+	font-size: 24px;
+	color: #359eff;
+	cursor: pointer;
+	text-align: center;
+}
+.int{
+	width:480px;
+}
+.int div{
+	width:100%;
+	margin-bottom: 24px;
+	/* border: 1px solid #aaa; */
+	text-align: center;
+	border-radius: 0px;
+	overflow: hidden;
+}
+.int div input{
+	width:438px;
+	height:52px;
+	outline: none;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+	font-size: 20px;
+	padding-left:30px;
+}
+.int div .btn{
+	width:100%;
+	background: #359EFF;
+	color:#FFF;
+	font-size:24px ;
+	cursor: pointer;
+}
+.int>div{
+	display: flex;
+	flex-direction: column;
+}
+.int>div>span{
+	height:0px;
+	text-align: left;
+	padding-top: 10px;
+	overflow: hidden;
+	transition: all 0.5s;
+}
+.int>div:nth-of-type(4){
+	width:150px;
+	overflow: hidden;
+	margin-bottom: 60px;
+	display: flex;
+	flex-direction: column;
+}
+.int>div:nth-of-type(4)>span{
+	height:0px;
+}
+.int>div:nth-of-type(5){
+	width:210px;
+	line-height: 52px;
+	overflow: hidden;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+	margin-left: 105px;
+	text-align: center;
+	font-size: 30px;
+	color: #666;
+}
+.int>div:nth-of-type(4)>input{
+	width: 78%;
+	height: 52px;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+	
+}
+.int>span:nth-of-type(1){
+	height: 20px;
+	background: red;
+	transition: all 1s;
+}
+.check{
+	font-size: 16px;
+	color: #AAA;
+	margin-bottom: 60px;
+	cursor: pointer;
+}
+.check img{
+	width:10px;
+	height:10px;
+	margin-top: 6px;
+	margin-left:6px;
+}
+.foot{
+	width:100%;
+	line-height:52px;
+	color:#aaa;
+	font-size: 13px;
+	margin-bottom: 30px;
+	text-align: center;
+}
